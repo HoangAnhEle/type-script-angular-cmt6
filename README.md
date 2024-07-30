@@ -20,8 +20,8 @@
 
 -Đợt 2 (<i>Cập nhật:</i> `00/00/0000`):
 
-| Member                   | Lesson-5                            | Lesson-6                            | Lesson-7                            | Lesson-8                            |  
-|--------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|
+| Member                   | Lesson-5                              | Lesson-6                              | Lesson-7                              | Lesson-8                              |  
+|--------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
 | **Bùi Nguyên Đán**       | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> |    
 | **Ngô Tài Vương**        | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> |     
 | **Trần Mạnh Tuấn**       | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> |
