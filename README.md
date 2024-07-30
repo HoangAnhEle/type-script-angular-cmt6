@@ -8,26 +8,30 @@
 
 ## Bảng kết quả bài tập
 
--Đợt 1 (<i>Cập nhật:</i> `29/02/2023`):
+-Đợt 1 (<i>Cập nhật:</i> `30/07/2024`):
 
 | Member                   | Lesson-1                              | Lesson-2                              | Lesson-3                              | Lesson-4                              |  
 |--------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
-| **Phạm Quang Đức Thành** | <article align='center'>`V`</article> | <article align='center'>`V`</article> | <article align='center'>`V`</article> | <article align='center'>`V`</article> |    
-| **Đào Mạnh Quang**       | <article align='center'>`V`</article> | <article align='center'>`V`</article> | <article align='center'>`V`</article> | <article align='center'>`V`</article> |     
-| **Phạm Hoàng Anh**       | <article align='center'>`V`</article> | <article align='center'>`V`</article> | <article align='center'>`V`</article> | <article align='center'>`V`</article> |     
+| **Bùi Nguyên Đán**       | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> |    
+| **Ngô Tài Vương**        | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> |     
+| **Trần Mạnh Tuấn**       | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> |
+| **Trần Văn Việt**        | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> |
+| **Lê Hoàng Cường**       | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> | 
 
 -Đợt 2 (<i>Cập nhật:</i> `00/00/0000`):
 
 | Member                   | Lesson-5                            | Lesson-6                            | Lesson-7                            | Lesson-8                            |  
 |--------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|
-| **Phạm Quang Đức Thành** | <article align='center'>X</article> | <article align='center'>X</article> | <article align='center'>X</article> | <article align='center'>X</article> |    
-| **Đào Mạnh Quang**       | <article align='center'>X</article> | <article align='center'>X</article> | <article align='center'>X</article> | <article align='center'>X</article> |     
-| **Phạm Hoàng Anh**       | <article align='center'>X</article> | <article align='center'>X</article> | <article align='center'>X</article> | <article align='center'>X</article> |   
+| **Bùi Nguyên Đán**       | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> |    
+| **Ngô Tài Vương**        | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> |     
+| **Trần Mạnh Tuấn**       | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> |
+| **Trần Văn Việt**        | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> |
+| **Lê Hoàng Cường**       | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> | <article align='center'>`X`</article> | 
 
 ## Link github bài tập
 
 ```
-https://github.com/sonhoang96/typescript-exercise
+https://github.com/HoangAnhEle/type-script-angular-cmt6
 ```
 
 ## Cấu trúc bài tập
