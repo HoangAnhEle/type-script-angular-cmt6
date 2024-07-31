@@ -20,8 +20,9 @@ Gợi ý:
     - Partial và Omit
     - Type predicates
 Giải thích:
-    - Mô tả hàm getObjectKeys: ...
-    - Mô tả hàm filterPerson sau khi sửa: ...
+    - Mô tả hàm getObjectKeys: Dùng để lấy thuộc tính của 1 object
+    - Mô tả hàm filterPerson sau khi sửa: Dùng để lấy giá trị của các đối tượng person theo đối tượng
+    cần lấy, kiểu của đối tượng và lấy theo thuộc tính gì
  */
 
 interface IUser {
@@ -59,8 +60,6 @@ export function logPerson(person: TPerson) {
 // @ts-ignore
 const getObjectKeys = <T>(obj: T) => Object.keys(obj) as (keyof T)[];
 
-export function filterPersons(persons: TPerson[], personType: IUser['type'], criteria: Partial<Omit<IUser, 'type'>>): IUser[];
-export function filterPersons(persons: TPerson[], personType: IAdmin['type'], criteria: Partial<Omit<IAdmin, 'type'>>): IAdmin[];
 export function filterPersons(persons: TPerson[], personType: TPerson['type'], criteria: Partial<TPerson>): TPerson[] {
     return persons
         .filter((person) => person.type === personType)
