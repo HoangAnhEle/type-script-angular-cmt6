@@ -5,7 +5,7 @@ Bài tập:
 
 Gợi ý: Using type predicates
 
-Giải thích: ...
+Giải thích: Để xác định rõ thuộc tính type thuộc đối tượng nào
     
 */
 
@@ -32,11 +32,11 @@ export const persons: TPerson[] = [
     { type: 'admin', name: 'Bruce Willis', age: 64, role: 'World saver' }
 ];
 
-export function isAdmin(person: TPerson) {
+export function isAdmin(person: TPerson): person is IAdmin {
     return person.type === 'admin';
 }
 
-export function isUser(person: TPerson) {
+export function isUser(person: TPerson): person is IUser {
     return person.type === 'user';
 }
 
