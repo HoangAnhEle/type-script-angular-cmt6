@@ -73,10 +73,15 @@ export function logPerson(person: TPerson) {
     console.log(` - ${person.name}, ${person.age}, ${additionalInformation}`);
 }
 
-export function filterUsers(persons: TPerson[], criteria: IUser): IUser[]{
+export function filterUsers(persons: TPerson[], criteria:Partial<Omit<TPerson,"type">>): TPerson[]{
     return persons.filter(isUser).filter((user) => {
-        const criteriaKeys = Object.keys(criteria) as (keyof IUser)[];
+        console.log(user ,"user");
+        
+        const criteriaKeys = Object.keys(criteria) as (keyof Partial<Omit<TPerson,"type">>)[];
+        console.log(criteriaKeys ,"ra gì");
+        
         return criteriaKeys.every((fieldName) => {
+           
             return user[fieldName] === criteria[fieldName];
         });
     });

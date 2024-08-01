@@ -20,8 +20,12 @@ Gợi ý:
     - Partial và Omit
     - Type predicates
 Giải thích:
-    - Mô tả hàm getObjectKeys: ...
-    - Mô tả hàm filterPerson sau khi sửa: ...
+    - Mô tả hàm getObjectKeys: ...hàm này sử dụng Generic <T là tham số được định nghĩa>(obj: T)kiểu dữ liệu của obj là T
+       + Object.keys(obj) là mảng chứa tất cả key của obj
+       + as là phương thức Alias trong TS
+       + (keyof T)[] là mảng key của Object.keys(obj) được lấy tư T
+    - Mô tả hàm filterPerson sau khi sửa: ...xử lý sẽ lọc và lấy ra những người có quyền là admin hoặc user 
+    sau đó sẽ kiểm tra xem những ai có độ tuổi là 23 so sách và lấy ra những user và admin có độ tuổi là 23 
  */
 
 interface IUser {
@@ -59,8 +63,8 @@ export function logPerson(person: TPerson) {
 // @ts-ignore
 const getObjectKeys = <T>(obj: T) => Object.keys(obj) as (keyof T)[];
 
-export function filterPersons(persons: TPerson[], personType: IUser['type'], criteria: Partial<Omit<IUser, 'type'>>): IUser[];
-export function filterPersons(persons: TPerson[], personType: IAdmin['type'], criteria: Partial<Omit<IAdmin, 'type'>>): IAdmin[];
+// export function filterPersons(persons: TPerson[], personType: IUser['type'], criteria: Partial<Omit<IUser, 'type'>>): IUser[];
+// export function filterPersons(persons: TPerson[], personType: IAdmin['type'], criteria: Partial<Omit<IAdmin, 'type'>>): IAdmin[];
 export function filterPersons(persons: TPerson[], personType: TPerson['type'], criteria: Partial<TPerson>): TPerson[] {
     return persons
         .filter((person) => person.type === personType)

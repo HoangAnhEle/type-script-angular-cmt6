@@ -5,9 +5,11 @@ Bài tập:
 
 Gợi ý: Using type predicates
 
-Giải thích: ...
-    
+Giải thích: ...đoạn code phía dưới lọc rồi lấy ra các dữ lệu thuộc về user riêng và admin riêng
+  -   Using type predicates sử dụng kiểm tra xem có user trong person không nếu có trả về true còn không có trả về flase
 */
+    
+
 
 interface IUser {
     type: 'user';
